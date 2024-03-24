@@ -21,12 +21,9 @@
     const title = ref('')
     const result = ref(null)
 
-    const searchMovie = async () => {
-        const response = await fetch(`http://www.omdbapi.com/?apikey=3eae3080&s=${title.value}`)
-        const value = await response.json()
-        result.value = value
-        console.log(result.value.Search)
-    }
+    // const searchMovie = async () => {
+        
+    // }
 
 </script>
 
